@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/gradient"
+android:orientation="vertical"
+android:gravity="center"
+android:padding="20dp"
+    android:fitsSystemWindows="true"
+tools:context=".Signup">
+
+<ImageView
+    android:layout_width="100dp"
+    android:layout_height="100dp"
+    android:src="@mipmap/farmer" />
+
+<EditText
+    android:alpha="0.1"
+    android:background="@drawable/roundedbutton"
+    android:id="@+id/name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+
+
+
+    android:drawablePadding="8dp"
+    android:hint="Name"
+    android:imeOptions="actionNext"
+    android:inputType="textPersonName"
+    android:padding="10dp"
+    android:selectAllOnFocus="false"
+    android:singleLine="true"
+    android:textColor="@color/white"
+    android:textColorHighlight="@color/white"
+    android:textColorHint="@color/white" />
+
+<EditText
+    android:alpha="0.1"
+    android:background="@drawable/roundedbutton"
+    android:id="@+id/username"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+
+
+    android:drawablePadding="8dp"
+    android:hint="Username"
+    android:imeOptions="actionNext"
+    android:padding="10dp"
+    android:selectAllOnFocus="false"
+    android:singleLine="true"
+    android:textColor="@color/white"
+    android:textColorHighlight="@color/white"
+    android:textColorHint="@color/white" />
+
+<EditText
+    android:alpha="0.1"
+    android:background="@drawable/roundedbutton"
+    android:id="@+id/password"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+
+
+    android:drawablePadding="8dp"
+    android:hint="Password"
+    android:imeOptions="actionNext"
+    android:inputType="textWebPassword"
+    android:padding="10dp"
+    android:selectAllOnFocus="false"
+    android:singleLine="true"
+    android:textColor="@color/white"
+    android:textColorHighlight="@color/white"
+    android:textColorHint="@color/white" />
+
+<EditText
+    android:id="@+id/birthdate"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:alpha="0.1"
+    android:background="@drawable/roundedbutton"
+
+    android:drawablePadding="8dp"
+    android:hint="Birthdate"
+    android:imeOptions="actionNext"
+    android:padding="10dp"
+    android:selectAllOnFocus="false"
+    android:singleLine="true"
+    android:textColor="@color/white"
+    android:textColorHighlight="@color/white"
+    android:textColorHint="@color/white" />
+
+<EditText
+    android:id="@+id/contact"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:alpha="0.1"
+    android:background="@drawable/roundedbutton"
+
+    android:drawablePadding="8dp"
+    android:hint="Phone Number"
+    android:imeOptions="actionNext"
+    android:inputType="phone"
+    android:padding="10dp"
+    android:singleLine="true"
+    android:textColor="@color/white"
+    android:textColorHighlight="@color/white"
+    android:textColorHint="@color/white" />
+
+<EditText
+    android:id="@+id/city"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:alpha="0.1"
+    android:background="@drawable/roundedbutton"
+
+    android:drawablePadding="8dp"
+    android:hint="City"
+    android:imeOptions="actionNext"
+    android:padding="10dp"
+    android:singleLine="true"
+    android:textColor="@color/white"
+    android:textColorHighlight="@color/white"
+    android:textColorHint="@color/white" />
+
+<EditText
+    android:id="@+id/state"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:alpha="0.1"
+    android:background="@drawable/roundedbutton"
+
+    android:drawablePadding="8dp"
+    android:hint="State"
+    android:imeOptions="actionDone"
+    android:padding="10dp"
+    android:singleLine="true"
+    android:textColor="@color/white"
+    android:textColorHighlight="@color/white"
+    android:textColorHint="@color/white" />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <CheckBox
+        android:id="@+id/checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:buttonTint="@color/white"
+        android:checked="false"
+        android:text="Want to become an advisor farmer??"
+        android:textColor="@color/white" />
+
+
+
+</LinearLayout>
+
+
+<EditText
+    android:id="@+id/expertise"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_margin="5dp"
+    android:layout_marginBottom="100dp"
+    android:alpha="0.6"
+    android:background="@drawable/roundedbutton"
+    android:drawablePadding="8dp"
+    android:hint="Expertise area"
+    android:imeOptions="actionDone"
+    android:padding="10dp"
+    android:singleLine="true"
+    android:textColor="@color/white"
+    android:textColorHighlight="@color/white"
+    android:textColorHint="@color/white"
+    android:visibility="gone" />
+
+
+<Button
+    android:id="@+id/register"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/roundedbutton"
+    android:backgroundTint="#013220"
+    android:padding="15dp"
+
+    android:text="Sign Up"
+
+    android:textColor="@color/white" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/alreadylogin"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="Already have an account? Login"
+        android:textColor="@color/white"/>
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+

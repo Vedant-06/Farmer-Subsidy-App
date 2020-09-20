@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e6ffe6"
+    android:fitsSystemWindows="true"
+
+    >
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+        <ImageButton
+            android:id="@+id/gimage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_gravity="center_vertical"
+            android:backgroundTint="#013220"
+
+            android:src="@drawable/ic_launcher_background" />
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/gpname"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/roundedbutton"
+        android:hint="Product name"
+        android:backgroundTint="#013220"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/gprice"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/roundedbutton"
+        android:hint="Price"
+        android:inputType="number"
+        android:backgroundTint="#013220"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/gdis"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/roundedbutton"
+        android:backgroundTint="#013220"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:hint="Discription"
+        android:layout_marginBottom="40dp"
+
+        android:singleLine="false" />
+
+
+
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="submit_Product"
+        android:background="@drawable/roundedbutton"
+        android:textColor="@color/white"
+        android:id="@+id/submit"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>

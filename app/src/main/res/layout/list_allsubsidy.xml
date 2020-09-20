@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_rowWeight="1"
+    android:layout_columnWeight="1"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginBottom="16dp"
+    android:fitsSystemWindows="true"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="8dp">
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:gravity="center_vertical"
+            android:text="abhi"
+            android:textColor="#013220"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/max"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:fontFamily="serif"
+            android:text="MaxCriteria: "
+            android:textColor="#013220"
+
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/maxincome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:layout_toRightOf="@id/max"
+            android:fontFamily="serif"
+            android:text="abhi"
+            android:textColor="#013220"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/maxavail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/maxincome"
+            android:fontFamily="serif"
+            android:text="MaxAvail: "
+            android:textColor="#013220"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/maxwin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/maxincome"
+            android:layout_toRightOf="@+id/maxavail"
+            android:fontFamily="serif"
+            android:text="adfjdf"
+            android:textColor="#013220"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/state"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/maxavail"
+            android:fontFamily="serif"
+            android:text="State: "
+            android:textColor="#013220"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/statename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/maxavail"
+            android:layout_toRightOf="@+id/state"
+            android:fontFamily="serif"
+            android:layout_marginBottom="10dp"
+            android:text="absdkjsfhhi"
+            android:textColor="#013220"
+            android:textSize="20sp" />
+
+
+
+
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

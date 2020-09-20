@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_rowWeight="1"
+    android:layout_columnWeight="1"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginBottom="16dp"
+    android:fitsSystemWindows="true"
+    app:cardCornerRadius="10dp"
+    app:cardElevation="8dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp">
+
+        <TextView
+            android:id="@+id/nameTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="serif"
+            android:text="Name: "
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_toRightOf="@+id/nameTitle"
+            android:fontFamily="serif"
+            android:text="abcdef"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:textColor="#000" />
+
+
+        <TextView
+            android:id="@+id/contactTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="serif"
+            android:text="Contact: "
+            android:layout_below="@+id/nameTitle"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/contact"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/name"
+            android:layout_toRightOf="@id/contactTitle"
+            android:fontFamily="serif"
+            android:text="abcde"
+            android:layout_marginTop="10dp"
+            android:textSize="20sp"
+            android:textColor="#000" />
+
+
+        <TextView
+            android:id="@+id/expertiseTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="serif"
+            android:text="Expertise at: "
+            android:layout_below="@+id/contactTitle"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:textColor="#000" />
+
+
+
+        <TextView
+            android:id="@+id/expertise"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="serif"
+            android:text="abcd"
+            android:layout_below="@+id/contact"
+            android:layout_toRightOf="@+id/expertiseTitle"
+            android:textSize="20sp"
+            android:layout_marginTop="18dp"
+            android:textColor="#000" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
+
+
+
+
+
+
+
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+    <!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<TextView-->
+    <!--android:text="abcdef"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="20dp"-->
+    <!--android:id="@+id/name"-->
+    <!--android:layout_marginBottom="8dp" />-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/contact"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="20dp"-->
+    <!--android:layout_alignStart="@+id/expertise"-->
+    <!--android:layout_marginBottom="8dp"-->
+    <!--android:text="abcde" />-->
+
+    <!--<TextView-->
+    <!--android:text="abcd"-->
+    <!--android:height="20dp"-->
+    <!--android:id="@+id/expertise"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content" />-->
+
+    <!--</LinearLayout>-->

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:layout_rowWeight="0.5"
+    android:layout_columnWeight="0.5"
+    android:fitsSystemWindows="true"
+    android:layout_marginLeft="16dp"
+    android:layout_marginRight="16dp"
+    android:layout_marginBottom="16dp"
+
+    app:cardCornerRadius="10dp"
+    app:cardElevation="8dp">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <ImageView
+            android:id="@+id/producttimage"
+
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true" />
+
+
+        <TextView
+            android:id="@+id/producttname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/producttimage"
+            android:fontFamily="serif"
+            android:gravity="center_vertical"
+            android:paddingTop="20dp"
+            android:text="Product Name"
+            android:textColor="#013220"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/ptrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/producttname"
+            android:fontFamily="serif"
+            android:text="Amount  : "
+            android:textColor="#013220"
+
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/pptrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/producttname"
+            android:layout_toRightOf="@id/ptrice"
+            android:fontFamily="serif"
+            android:text="$$$$$"
+            android:textColor="#013220"
+            android:textSize="20sp" />
+
+        <Button
+
+            android:id="@+id/delete"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_below="@+id/ptrice"
+            android:background="@drawable/ic_delete_black_24dp"
+            android:paddingTop="10dp" />
+
+
+
+
+
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:fitsSystemWindows="true"
+    android:background="#e6ffe6">
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/producttsubsidyrecycler"
+        android:layout_width="match_parent"
+        android:layout_height="470dp"
+        android:layout_marginTop="40dp"
+
+        />
+
+    <TextView
+        android:layout_width="170dp"
+        android:layout_height="200dp"
+        android:id="@+id/total"
+        android:text="TOTAL"
+        android:layout_below="@id/producttsubsidyrecycler"
+        android:textSize="50sp"
+        android:textColor="#013220"
+        />
+
+    <Button
+        android:id="@+id/placeorder"
+
+
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/producttsubsidyrecycler"
+        android:layout_gravity="center"
+        android:layout_marginLeft="36dp"
+        android:layout_marginTop="0dp"
+        android:layout_toRightOf="@id/total"
+        android:background="@drawable/roundedbutton"
+        android:paddingLeft="15dp"
+        android:text="Place Order"
+        android:backgroundTint="#013220"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+</RelativeLayout>

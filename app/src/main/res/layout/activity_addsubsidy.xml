@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e6ffe6"
+    android:fitsSystemWindows="true"
+
+    >
+
+    <EditText
+        android:id="@+id/subsidyname"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/roundedbutton"
+        android:hint="Subsidy name"
+        android:backgroundTint="#013220"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/criteria"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/roundedbutton"
+        android:hint="Income Criteria"
+        android:inputType="number"
+        android:backgroundTint="#013220"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:singleLine="true" />
+
+    <EditText
+        android:id="@+id/maxvalue"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/roundedbutton"
+        android:hint="Maximum Value"
+        android:backgroundTint="#013220"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:inputType="number"
+        android:singleLine="true" />
+
+
+
+    <EditText
+        android:id="@+id/state"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="#013220"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:background="@drawable/roundedbutton"
+        android:hint="State"
+        android:singleLine="true" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/document"
+            android:layout_width="280dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="10dp"
+            android:backgroundTint="#013220"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:background="@drawable/roundedbutton"
+
+            android:hint="Documents" />
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Add"
+            android:textColor="@color/white"
+            android:background="@drawable/roundedbutton"
+
+            android:id="@+id/add">
+
+        </Button>
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/details"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="#013220"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:background="@drawable/roundedbutton"
+        android:hint="Details"
+        android:inputType="textMultiLine"
+        android:layout_marginBottom="40dp"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="submit_subsidy"
+        android:background="@drawable/roundedbutton"
+        android:id="@+id/submit"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center_horizontal"/>
+</LinearLayout>

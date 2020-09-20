@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+xmlns:tools="http://schemas.android.com/tools"
+
+android:background="@drawable/gradient"
+android:orientation="vertical"
+android:gravity="center"
+android:padding="20dp"
+
+tools:context=".Login">
+
+
+<ImageView
+    android:layout_width="100dp"
+    android:layout_height="150dp"
+    android:layout_margin="20dp"
+    android:src="@mipmap/farmer"/>
+
+<EditText
+    android:alpha="0.1"
+    android:background="@drawable/roundedbutton"
+    android:id="@+id/username"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+
+
+    android:drawablePadding="10dp"
+    android:hint="Username"
+    android:padding="15dp"
+    android:singleLine="true"
+    android:textColor="@color/white"
+    android:textColorHighlight="@color/white"
+    android:textColorHint="@color/white" />
+
+<EditText
+    android:id="@+id/password"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:alpha="0.1"
+    android:background="@drawable/roundedbutton"
+
+    android:drawablePadding="10dp"
+    android:hint="Password"
+    android:inputType="textPassword"
+    android:padding="15dp"
+    android:singleLine="true"
+    android:textColor="@color/white"
+    android:textColorHighlight="@color/white"
+    android:textColorHint="@color/white" />
+
+<LinearLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <CheckBox
+        android:id="@+id/showPass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:buttonTint="@color/white"
+        android:checked="false"
+        android:text="Show Password"
+        android:textColor="@color/white" />
+    <CheckBox
+        android:id="@+id/saveLoginCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:buttonTint="@color/white"
+        android:checked="false"
+
+        android:text="Remember Me"
+        android:layout_alignParentLeft="true"
+        android:textColor="@color/white" />
+
+
+
+    <!--
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Forget Password"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="0dp"
+                android:textColor="@color/white"
+                android:drawableLeft="@drawable/ic_lock_open_black_24dp"
+                android:drawablePadding="6dp"
+                android:padding="4dp"/>-->
+
+
+</LinearLayout>
+
+<Button
+    android:id="@+id/login"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/roundedbutton"
+    android:backgroundTint="#013220"
+    android:padding="15dp"
+    android:shadowColor="@android:color/transparent"
+    android:text="Login"
+    android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/alreadysignup"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:text="Do not have an account? Signup"
+        android:textColor="@color/white"/>
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+
+    <!--<EditText-->
+    <!--android:id="@+id/username"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="88dp"-->
+    <!--android:ems="10"-->
+    <!--android:inputType="textPersonName"-->
+    <!--android:hint="Name"-->
+    <!--app:layout_constraintTop_toTopOf="parent"-->
+    <!--tools:layout_editor_absoluteX="61dp" />-->
+
+    <!--<EditText-->
+    <!--android:id="@+id/password"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="32dp"-->
+    <!--android:ems="10"-->
+    <!--android:inputType="textPassword"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/username"-->
+    <!--tools:layout_editor_absoluteX="61dp" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/login"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="8dp"-->
+    <!--android:layout_marginBottom="8dp"-->
+    <!--android:text="login"-->
+    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/password"-->
+    <!--app:layout_constraintVertical_bias="0.451"-->
+    <!--tools:layout_editor_absoluteX="144dp" />-->
+
+    <!--<Button-->
+    <!--android:id="@+id/register"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginStart="8dp"-->
+    <!--android:layout_marginTop="40dp"-->
+    <!--android:layout_marginEnd="8dp"-->
+    <!--android:layout_marginBottom="8dp"-->
+    <!--android:text="newuser?"-->
+    <!--app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--app:layout_constraintEnd_toEndOf="parent"-->
+    <!--app:layout_constraintHorizontal_bias="0.47"-->
+    <!--app:layout_constraintStart_toStartOf="parent"-->
+    <!--app:layout_constraintTop_toBottomOf="@+id/login"-->
+    <!--app:layout_constraintVertical_bias="0.0" />-->
+    <!--</android.support.constraint.ConstraintLayout>-->

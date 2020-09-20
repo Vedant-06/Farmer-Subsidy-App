@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:fitsSystemWindows="true"
+    android:background="#e6ffe6">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="400dp"
+
+        android:layout_height="400dp"
+        android:id="@+id/proimg"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_gravity="center"
+        android:paddingBottom="20dp"/>
+
+    <TextView
+        android:id="@+id/proname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="serif"
+        android:text="abhi is the boss"
+        android:textAlignment="center"
+        android:textColor="#013220"
+        android:textSize="40sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/proprice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="serif"
+        android:text="abhitsi the  s "
+        android:textColor="#013220"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="serif"
+        android:text="Description"
+        android:textColor="#013220"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/prodes"/>
+    <Button
+
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="Add To Cart"
+        android:hapticFeedbackEnabled="true"
+        android:clickable="true"
+        android:defaultFocusHighlightEnabled="true"
+        android:soundEffectsEnabled="true"
+        android:textSize="30sp"
+        android:id="@+id/addtocart"
+        android:backgroundTint="#013220"
+        android:textColor="@color/white"
+        android:layout_gravity="center"
+        android:background="@drawable/roundedbutton"/>
+
+</LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
